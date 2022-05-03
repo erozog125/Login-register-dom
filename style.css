@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: linear-gradient(90deg, black,#01102d,#023270,#044fe4);
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;  
+}
+
+header > nav {
+  padding: 1rem;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: yellow;
+  font-family: 'Pacifico', cursive;
+  font-weight: 800;  
+  font-style: oblique;
+}
+
+a:hover {
+  border-radius: 50px;
+  text-shadow: 0 0 10px #9acd32;
+}
+
+a:focus {
+  color: #9acd32;
+  text-decoration: 0 0 15px #fff;
+}
+
+header > h1 {
+  width: 80%;
+  font-size: 3rem;
+  color: #fff;
+  font-style: italic;
+  font-family: 'Shadows Into Light', cursive;
+  margin-left: 1rem;  
+}
+
+hr {
+  width: 90%;
+  text-align: center;
+  margin: 2rem ;
+  height: 0.2rem;
+  background: linear-gradient(-40deg, #ff4000, #b83708,rgb(224, 77, 9));
+}
+
+main {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main > img {
+  border-radius: 15px;
+  box-shadow: -10px -10px 5px #0b0b75;
+}
+
+main > img:hover {
+  filter: invert(50);  
+}
+
+#frm-register {
+  width: 25rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: groove 5px blueviolet;
+  border-radius: 15px;
+  box-shadow: 0 0 25px red;
+  padding: 1rem;
+}
+
+#frm-register #img-form {
+  width: 50%;
+}
+
+#frm-register input {
+  width: 80%;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  color: #8fee11;
+  background-color: #343b41;
+  padding-left: 0.5rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.buttons a {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 0 0 10px blueviolet;
+  text-decoration: none;
+}
+
+.buttons > a:hover {
+  font-weight: 900;
+  color: #8fee11;
+  font-size: 1.3rem;
+}
+
+.myButton {
+	box-shadow: 0px -2px 7px #0795ee;
+	background:linear-gradient(to bottom, #011d3e 5%, #0a6ceb 100%);	
+	border-radius:15px;
+	border:3px solid #05308f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:14px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin: 1rem;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
