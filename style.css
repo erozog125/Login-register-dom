@@ -67,6 +67,7 @@ hr {
 }
 
 main {
+  margin-top: 1rem;
   width: 100%;
   height: 60%;
   display: flex;
@@ -149,7 +150,7 @@ main > img:hover {
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
-	background-color:#5cbf2a;
+	background-color:#d3e6c9;
 }
 .myButton:active {
 	position:relative;

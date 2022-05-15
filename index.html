@@ -4,22 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="shortcut icon" href="Images/icon.jpg" type="image/x-icon">  
   <title>Login Simulator</title>
 </head>
 <body>
   <header>
-    <h1>Simulador de formulario Login</h1>
+    <h1>Aún no estás registrado</h1>
     <nav>
       <a href="#">Home</a>
       <a href="#">Contact US</a>
-      <a href="Pages/register.html">Login</a>
+      <a href="Pages/login.html">Login</a>
     </nav>
   </header>
   <hr>
   <main>
-    <img src="Home.jpg" alt="Imagen Home">
+    <form id="frm-register" action="">
+        <img id="img-form"src="/Images/Holdon.png" alt="start">        
+        <input id="fullName" type="text" placeholder="Full Name" value="Edwin Rozo">
+        <input id="userName" type="text" placeholder="userName" value="edwin.rozo">
+        <input id="password" type="password" placeholder="Insert your password" value="123456">
+        <input id="confirmPassword" type="password" placeholder="confirm your password" value="123456">
+        <div class="buttons">
+          <input class="myButton" type="submit" value="Register">
+          <a href="Pages/login.html" target="_blank" rel="noopener noreferrer">Login</a>          
+        </div>            
+    </form>
   </main>
+  <script src="app.js"></script>      
 </body>
 </html>

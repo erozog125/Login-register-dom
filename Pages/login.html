@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
-  <link rel="shortcut icon" href="/icon.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="/Images/ok.png" type="image/x-icon">
   <title>Login Simulator</title>
 </head>
 <body>
@@ -21,14 +21,14 @@
   <main>
     <form id="frm-register" action="">
         <img id="img-form"src="/Images/ok.png" alt="start">        
-        <input type="text" placeholder="userName">
-        <input type="password" placeholder="Insert your password">        
+        <input id="userName" type="text" placeholder="userName" value="edwin.rozo">
+        <input id="password" type="password" placeholder="Insert your password" value="123456">        
         <div class="buttons">
-          <button class="myButton">Login</button>
+          <button id="btn-login" class="myButton">Login</button>
           <a href="register.html">Register</a>
-        </div>
-      </fieldset>
+        </div>        
     </form>
-  </main>
+  </main>  
+  <script src="/login.js"></script>
 </body>
 </html>
